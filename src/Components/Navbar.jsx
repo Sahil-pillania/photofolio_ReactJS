@@ -1,19 +1,13 @@
-import React from "react";
-import "./style.css";
-import logo from "./Images/logo.png";
+import React from 'react';
+import "./navbar.css";
 
-const Navbar = () => {
+export default function Navbar() {
   return (
     <>
-      <div className="navbar">
-        <div className="icon">
-          <img src={logo} alt="" />
-          <div className="name">PhotoFolio</div>
-        </div>
-        <div className="details"></div>
-      </div>
+    <div className="footer">
+        <img src="https://cdn-icons-png.flaticon.com/128/4047/4047371.png" alt="photo" />
+        <span className="text">PhotoFolio</span>
+    </div>
     </>
-  );
-};
-
-export default Navbar;
+  )
+}
